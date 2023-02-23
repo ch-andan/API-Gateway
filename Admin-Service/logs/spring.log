@@ -1,0 +1,166 @@
+2023-02-23 11:49:05.520  INFO 3864 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : Starting PwsAdminServiceApplication using Java 19.0.1 on DESKTOP-NS565E7 with PID 3864 (I:\New folder (3)\Spring_pacewisdom projects\admin-service-Chandan\target\classes started by Chandu in I:\New folder (3)\Spring_pacewisdom projects\admin-service-Chandan)
+2023-02-23 11:49:05.528  INFO 3864 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-02-23 11:49:05.637  INFO 3864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 11:49:05.639  INFO 3864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 11:49:07.646  INFO 3864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23 11:49:07.890  INFO 3864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237 ms. Found 6 JPA repository interfaces.
+2023-02-23 11:49:08.490  INFO 3864 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cf48ae5f-7d4b-3435-89ba-df5c7101ea0e
+2023-02-23 11:49:08.963  INFO 3864 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:49:08.968  INFO 3864 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:49:08.971  INFO 3864 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:49:09.704  INFO 3864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-02-23 11:49:09.715  INFO 3864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-23 11:49:09.716  INFO 3864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-02-23 11:49:09.887  INFO 3864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-23 11:49:09.888  INFO 3864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4212 ms
+2023-02-23 11:49:10.499  INFO 3864 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23 11:49:10.590  INFO 3864 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-02-23 11:49:10.899  INFO 3864 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23 11:49:10.996  INFO 3864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-23 11:49:11.358  INFO 3864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-23 11:49:11.373  INFO 3864 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-23 11:49:12.348  INFO 3864 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23 11:49:12.354  INFO 3864 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23 11:49:13.171  WARN 3864 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-23 11:49:13.708  WARN 3864 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/api/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 11:49:13.710  INFO 3864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/api/**']
+2023-02-23 11:49:13.711  WARN 3864 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 11:49:13.712  INFO 3864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**', OPTIONS]
+2023-02-23 11:49:13.712  WARN 3864 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**/*.{js,html,css}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 11:49:13.713  INFO 3864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**/*.{js,html,css}']
+2023-02-23 11:49:13.765  INFO 3864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@51ca2e61, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d7201f0, org.springframework.security.web.context.SecurityContextPersistenceFilter@dbb0b95, org.springframework.security.web.header.HeaderWriterFilter@453b68cb, org.springframework.security.web.authentication.logout.LogoutFilter@6b6ca340, com.pws.admin.security.jwt.config.JwtFilter@438dcb61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@aa9de71, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d99e61c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53666725, org.springframework.security.web.session.SessionManagementFilter@7cf42b42, org.springframework.security.web.access.ExceptionTranslationFilter@2ee9c6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bbebd6f]
+2023-02-23 11:49:14.385  INFO 3864 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-02-23 11:49:16.930  INFO 3864 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 11:49:18.064  INFO 3864 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 11:49:18.349  INFO 3864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-23 11:49:19.455  INFO 3864 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 11:49:19.464  INFO 3864 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-23 11:49:19.568  WARN 3864 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-23 11:49:19.577  INFO 3864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-23 11:49:19.625  INFO 3864 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-23 11:49:19.784  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-02-23 11:49:19.789  INFO 3864 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 11:49:19.811  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-23 11:49:19.812  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-23 11:49:19.812  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-23 11:49:19.812  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-23 11:49:19.812  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-23 11:49:19.812  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-02-23 11:49:19.812  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-23 11:49:20.089  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-23 11:49:20.091  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-02-23 11:49:20.094  INFO 3864 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-23 11:49:20.099  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1677133160098 with initial instances count: 0
+2023-02-23 11:49:20.102  INFO 3864 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVICE with eureka with status UP
+2023-02-23 11:49:20.103  INFO 3864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677133160103, current=UP, previous=STARTING]
+2023-02-23 11:49:20.105  INFO 3864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/localhost:Admin-service:9090: registering service...
+2023-02-23 11:49:20.130  INFO 3864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-02-23 11:49:20.131  INFO 3864 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9090
+2023-02-23 11:49:20.201  INFO 3864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/localhost:Admin-service:9090 - registration status: 204
+2023-02-23 11:49:21.214  INFO 3864 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 11:49:22.289  INFO 3864 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 11:49:22.290  INFO 3864 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2023-02-23 11:49:22.290  INFO 3864 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-02-23 11:49:22.291  INFO 3864 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2023-02-23 11:49:22.312  INFO 3864 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : Started PwsAdminServiceApplication in 18.554 seconds (JVM running for 19.666)
+2023-02-23 11:49:50.101  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-23 11:49:50.102  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-23 11:49:50.104  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-23 11:49:50.106  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-23 11:49:50.107  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-23 11:49:50.107  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-02-23 11:49:50.107  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-23 11:49:50.148  INFO 3864 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-23 11:50:14.038  INFO 3864 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2023-02-23 11:52:22.983  INFO 3864 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 11:52:22.984  INFO 3864 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-23 11:52:23.007  INFO 3864 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2023-02-23 11:54:19.826  INFO 3864 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 11:59:19.838  INFO 3864 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 12:00:52.598  INFO 3864 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-SERVICE with eureka with status DOWN
+2023-02-23 12:00:52.599  INFO 3864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677133852599, current=DOWN, previous=UP]
+2023-02-23 12:00:52.599  INFO 3864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/localhost:Admin-service:9090: registering service...
+2023-02-23 12:00:52.602  INFO 3864 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2023-02-23 12:00:52.603  INFO 3864 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-02-23 12:00:52.603  INFO 3864 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2023-02-23 12:00:52.604  INFO 3864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/localhost:Admin-service:9090 - registration status: 204
+2023-02-23 12:00:52.635  INFO 3864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23 12:00:52.646  INFO 3864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-23 12:00:52.658  INFO 3864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-23 12:00:52.659  INFO 3864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-02-23 12:00:55.675  INFO 3864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-02-23 12:00:55.681  INFO 3864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/localhost:Admin-service:9090 - deregister  status: 200
+2023-02-23 12:00:55.686  INFO 3864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-02-23 12:01:01.771  INFO 6184 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : Starting PwsAdminServiceApplication using Java 19.0.1 on DESKTOP-NS565E7 with PID 6184 (I:\New folder (3)\Spring_pacewisdom projects\admin-service-Chandan\target\classes started by Chandu in I:\New folder (3)\Spring_pacewisdom projects\admin-service-Chandan)
+2023-02-23 12:01:01.773  INFO 6184 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-02-23 12:01:01.844  INFO 6184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 12:01:01.845  INFO 6184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 12:01:03.709  INFO 6184 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23 12:01:04.103  INFO 6184 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 379 ms. Found 6 JPA repository interfaces.
+2023-02-23 12:01:04.615  INFO 6184 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cf48ae5f-7d4b-3435-89ba-df5c7101ea0e
+2023-02-23 12:01:05.039  INFO 6184 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:01:05.043  INFO 6184 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:01:05.046  INFO 6184 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:01:05.915  INFO 6184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-02-23 12:01:05.942  INFO 6184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-23 12:01:05.943  INFO 6184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-02-23 12:01:06.092  INFO 6184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-23 12:01:06.092  INFO 6184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4247 ms
+2023-02-23 12:01:06.714  INFO 6184 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23 12:01:06.805  INFO 6184 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-02-23 12:01:07.033  INFO 6184 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23 12:01:07.123  INFO 6184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-23 12:01:07.460  INFO 6184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-23 12:01:07.482  INFO 6184 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-23 12:01:08.384  INFO 6184 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23 12:01:08.391  INFO 6184 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23 12:01:09.179  WARN 6184 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-23 12:01:09.689  WARN 6184 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/api/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 12:01:09.690  INFO 6184 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/api/**']
+2023-02-23 12:01:09.691  WARN 6184 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 12:01:09.691  INFO 6184 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**', OPTIONS]
+2023-02-23 12:01:09.691  WARN 6184 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**/*.{js,html,css}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 12:01:09.691  INFO 6184 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**/*.{js,html,css}']
+2023-02-23 12:01:09.735  INFO 6184 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a8c7458, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@412b1cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@47662498, org.springframework.security.web.header.HeaderWriterFilter@55fa717f, org.springframework.security.web.authentication.logout.LogoutFilter@626f18d7, com.pws.admin.security.jwt.config.JwtFilter@40dab91d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5113fe09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4787ec5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@209d9851, org.springframework.security.web.session.SessionManagementFilter@31cc2cbe, org.springframework.security.web.access.ExceptionTranslationFilter@22d884b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@171b9b4f]
+2023-02-23 12:01:10.207  INFO 6184 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-02-23 12:01:12.243  INFO 6184 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 12:01:13.382  INFO 6184 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 12:01:13.628  INFO 6184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-23 12:01:14.710  INFO 6184 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 12:01:14.730  INFO 6184 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-23 12:01:14.834  WARN 6184 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-23 12:01:14.843  INFO 6184 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:01:14.884  INFO 6184 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-23 12:01:15.038  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-02-23 12:01:15.043  INFO 6184 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 12:01:15.070  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-23 12:01:15.070  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-23 12:01:15.070  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-23 12:01:15.070  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-23 12:01:15.070  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-23 12:01:15.070  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-02-23 12:01:15.070  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-23 12:01:15.351  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-23 12:01:15.354  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-02-23 12:01:15.357  INFO 6184 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-23 12:01:15.363  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1677133875362 with initial instances count: 2
+2023-02-23 12:01:15.365  INFO 6184 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVICE with eureka with status UP
+2023-02-23 12:01:15.366  INFO 6184 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677133875366, current=UP, previous=STARTING]
+2023-02-23 12:01:15.368  INFO 6184 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/localhost:Admin-service:9090: registering service...
+2023-02-23 12:01:15.394  INFO 6184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-02-23 12:01:15.395  INFO 6184 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9090
+2023-02-23 12:01:15.413  INFO 6184 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/localhost:Admin-service:9090 - registration status: 204
+2023-02-23 12:01:16.465  INFO 6184 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 12:01:17.525  INFO 6184 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-02-23 12:01:17.526  INFO 6184 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2023-02-23 12:01:17.527  INFO 6184 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-02-23 12:01:17.527  INFO 6184 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2023-02-23 12:01:17.547  INFO 6184 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : Started PwsAdminServiceApplication in 17.385 seconds (JVM running for 18.277)
+2023-02-23 12:01:21.756  INFO 6184 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:01:21.756  INFO 6184 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:01:21.757  INFO 6184 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-23 12:02:09.935  INFO 6184 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2023-02-23 12:06:15.078  INFO 6184 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 12:11:15.085  INFO 6184 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 12:16:15.101  INFO 6184 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 12:21:15.108  INFO 6184 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
